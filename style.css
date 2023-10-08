@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'AR One Sans', sans-serif;
+    margin: auto;
+}
+.navigation{
+    background-color:#252524 ;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    margin: 10px 0 10px 0;
+    align-items: center;
+    display: flex;
+}
+.lien-navigation{
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+.lettre-logo{
+    font-size: 35px;
+    color: #F0D00B;
+}
+nav>a{
+    padding-right: 30px;
+    text-decoration: none; 
+    color: #ffff;
+}
+nav>a:hover{
+    color: #F0D00B;
+}
+.presentation{
+    margin: 60px 0px 0px 0px;
+    padding: 90px 0px 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #303030;   
+}
+.se-presenter>h1{
+    color: #ffff;
+    font-size: 60px;
+}
+.se-presenter>p{
+    color: #ffff;
+    font-size: 25px;
+    margin-bottom: 50px;   
+}
+.button-presentation{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    background-color: #F0D00B;
+}
+.portrait{
+    background-color: #F0D00B;
+    width: 350px;
+    height: 400px;
+    transition: all 0.7s ease-in-out;
+}
+.portrait:hover{
+    border-radius: 15px;
+}
+.portrait>img{
+    width: 300px;
+    height: 350px;
+    transition: all 0.7s ease-in-out;
+    transition-delay: 100ms;
+}
+.portrait>img:hover{
+    cursor: pointer;
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;   
+}
